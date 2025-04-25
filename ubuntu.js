@@ -1,6 +1,6 @@
 //Gera numeros aleatorios e atribui à cada valor do gradiente linear.
 
-const linearGradiente = [{deg: Math.floor(Math.random() * 360 + 0)}, {corR: Math.floor(Math.random() * 255 + 0)}, {corG: Math.floor(Math.random() * 255 + 0)}, {corB: Math.floor(Math.random() * 255 + 0)}, {altCorR: Math.floor(Math.random() * 255 + 0)}, {altCorG: Math.floor(Math.random() * 255 + 0)}, {altCorB: Math.floor(Math.random() * 255 + 0)}, {tpr: Math.floor(Math.random() * 90 + 0)}];
+let linearGradiente = [{deg: Math.floor(Math.random() * 360 + 0)}, {corR: Math.floor(Math.random() * 255 + 0)}, {corG: Math.floor(Math.random() * 255 + 0)}, {corB: Math.floor(Math.random() * 255 + 0)}, {altCorR: Math.floor(Math.random() * 255 + 0)}, {altCorG: Math.floor(Math.random() * 255 + 0)}, {altCorB: Math.floor(Math.random() * 255 + 0)}, {tpr: Math.floor(Math.random() * 90 + 0)}];
 let imagem = Math.floor(Math.random() * 20 + 1);
 let bg = ["./img/01.jpg", "./img/02.jpg", "./img/03.jpg", "./img/04.png", "./img/05.png", "./img/06.jpg", "./img/07jpg", "./img/08.png", "./img/09.jpeg", "./img/10jpg", "./img/11.jpg", "./img/12.jpg", "./img/13.jpg", "./img/14.jpg", "./img/15.jpg", "./img/16.jpg", "./img/17.jpg", "./img/18.png", "./img/19.jpg", "./img/20.jpg"];
 let gradiente;
